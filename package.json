@@ -1,0 +1,31 @@
+{
+	"name": "vite-plugin-named-port",
+	"version": "0.0.0-development",
+	"description": "Use a deterministic port for your Vite dev server",
+	"repository": "kubajastrz/vite-plugin-named-port",
+	"license": "MIT",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"format": "prettier --write .",
+		"test": "node scripts.js"
+	},
+	"prettier": {
+		"printWidth": 100,
+		"singleQuote": true,
+		"trailingComma": "all",
+		"useTabs": true
+	},
+	"dependencies": {
+		"named-port": "^2.1.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.8.8",
+		"semantic-release": "^21.0.2",
+		"vite": "^4.3.8"
+	},
+	"peerDependencies": {
+		"vite": "^4"
+	},
+	"packageManager": "pnpm@8.5.1"
+}
