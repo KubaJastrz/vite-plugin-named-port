@@ -6,6 +6,11 @@
 	"license": "MIT",
 	"type": "module",
 	"main": "index.js",
+	"types": "index.d.ts",
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
 	"scripts": {
 		"format": "prettier --write .",
 		"test": "node scripts.js"
