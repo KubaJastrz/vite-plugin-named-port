@@ -22,14 +22,14 @@ jobs:
       github.event_name == 'push' && github.event.repository.full_name == github.repository &&
       contains('refs/heads/main,refs/heads/alpha,refs/heads/beta,refs/heads/next', github.ref)
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6.0.2
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v6.3.0
         with:
           node-version: 'lts/*'
-      - uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v5.0.0
         with:
           run_install: true
 
