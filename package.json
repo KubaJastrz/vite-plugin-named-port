@@ -13,7 +13,7 @@
 	],
 	"scripts": {
 		"format": "prettier --write .",
-		"test": "node scripts.js"
+		"test": "node test.js"
 	},
 	"prettier": {
 		"printWidth": 100,
@@ -22,7 +22,7 @@
 		"useTabs": true
 	},
 	"dependencies": {
-		"named-port": "^2.1.0"
+		"named-port": "^4.0.1"
 	},
 	"devDependencies": {
 		"prettier": "^2.8.8",
