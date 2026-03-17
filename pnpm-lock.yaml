@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   named-port:
-    specifier: ^2.1.0
-    version: 2.1.0
+    specifier: ^4.0.1
+    version: 4.0.1
 
 devDependencies:
   prettier:
@@ -1536,8 +1536,9 @@ packages:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
     dev: true
 
-  /named-port@2.1.0:
-    resolution: {integrity: sha512-bMXRmrYE5HFUaSTruraDUh3M9SHFB+N5UxF6ozJaCUv+PA3BGvUfPmjiuA2VnXLvap/7/Qt0JKNpszlfDE8EQA==}
+  /named-port@4.0.1:
+    resolution: {integrity: sha512-BL3rrYRBPA0LzsSJjjc3NeJVyTlbjv+jEoQfykWmo/ymkqNJ78WgsCLni/gYTtoH3RFdteZ9gHg0iYOE8XzFoA==}
+    engines: {node: '>=20'}
     hasBin: true
     dev: false
 
