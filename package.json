@@ -13,7 +13,7 @@
 	],
 	"scripts": {
 		"format": "prettier --write .",
-		"test": "node scripts.js"
+		"test": "node test.js"
 	},
 	"prettier": {
 		"printWidth": 100,
