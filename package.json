@@ -32,5 +32,9 @@
 	"peerDependencies": {
 		"vite": "^4"
 	},
-	"packageManager": "pnpm@8.5.1"
+	"packageManager": "pnpm@8.5.1",
+	"publishConfig": {
+		"access": "public",
+		"provenance": true
+	}
 }
