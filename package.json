@@ -2,7 +2,10 @@
 	"name": "vite-plugin-named-port",
 	"version": "0.0.0-development",
 	"description": "Use a deterministic port for your Vite dev server",
-	"repository": "kubajastrz/vite-plugin-named-port",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/KubaJastrz/vite-plugin-named-port"
+	},
 	"license": "MIT",
 	"type": "module",
 	"main": "index.js",
